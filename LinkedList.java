@@ -28,6 +28,15 @@ class LinkedList{
             currentHead = currentHead.next;
         }
     }
+   public int getSize(){ 
+        Node current  = this.head; 
+        int count = 0; 
+        while (current  != null){ 
+            count++; 
+            current  = current .next; 
+        } 
+        return count; 
+    } 
     public void addFirst(Object data){
         Node newNode = new Node();
         newNode.data = data;
