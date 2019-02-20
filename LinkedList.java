@@ -36,6 +36,16 @@ class LinkedList{
             current  = current .next; 
         } 
         return count; 
+    }
+    // Recursive get Count
+    public int getSizeRec(Node node){ 
+        if (node == null) 
+            return 0;
+        return 1 + getSizeRec(node.next); 
+    }
+    /* Wrapper over getSizeRec() */
+    public int getCount(){ 
+        return getSizeRec(head); 
     } 
     public void addFirst(Object data){
         Node newNode = new Node();
