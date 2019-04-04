@@ -3,20 +3,20 @@ class TestLinkedList{
       System.out.println("------------------------");
       System.out.println("add method:");
       LinkedList l1 = new LinkedList();
-		  l1.add(14);
-		  l1.add(127);
+		  l1.add(140);
+		  l1.add(1270);
 		  l1.add(5);
-		  l1.add(35);
-		  l1.add(40);
+		  l1.add(350);
+		  l1.add(405);
 		  l1.printAllNodes(); 
 		  System.out.println("removeEl Element  : call l1.removeEl(35) ");
-		  l1.removeEl(35);		
+		  l1.removeEl(350);		
 		  l1.printAllNodes();
 		  System.out.println("removeEl Element  : call l1.removeEl(14) ");
-		  l1.removeEl(14);		
+		  l1.removeEl(140);		
 		  l1.printAllNodes();
 		  System.out.println("removeEl Element  : call l1.removeEl(127) ");
-      l1.removeEl(127);		
+      l1.removeEl(1270);		
 		  l1.printAllNodes();
 		  System.out.println("------------------------"); 
 		
